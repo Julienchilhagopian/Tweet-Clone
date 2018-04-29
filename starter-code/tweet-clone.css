@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+div {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(225, 232, 237);
+  border-radius: 7px;
+  height: 6cm;
+  width: 22cm;
+  position: relative;
+  top: 4cm;
+  left: 5cm;
+  padding: 8mm 8mm 8mm 8mm;
+  font-size: 22pt;
+}
+
+/* Reply, RT and FAV buttons */
+.bottom-text {
+  float: left;
+  position: relative;
+  bottom: 62px;
+  color: rgb(105, 120, 130);
+
+}
+
+/* Profil picture - Jack text - Validated account logo and walking emoji */
+.top-text {
+  position:relative;
+  bottom: 155px;
+
+}
+/* Adjusting Walking emoji */
+#logo1 {
+  position: relative;
+  right: 42px;
+  bottom: 14px
+}
+
+/* Adjusting Validated account */
+#logo2 {
+  position: relative;
+  left: 30px;
+  bottom: 14.5px;
+}
+
+
+/* "Just setting up my twttr" text */
+.main-text {
+  position:relative;
+  top: 75px;
+}
+
+
+.date-time {
+  color: rgb(101, 116, 127);
+  font-size: 17pt;
+  position: relative;
+  top: 55px;
+  bottom: 10px;
+}
+
+
+/* The black bold jack */
+.jack1 {
+  position: relative;
+  top: 25px;
+  left: 48px;
+}
+
+
+/* @jack */
+.jack2 {
+  position: relative;
+  top: 8px;
+  color: rgb(104, 109, 129);
+  font-size: 17pt;
+  left: 20px;
+
+}
+
+.follow-button {
+  position: relative;
+  bottom: 283px;
+  font-weight: bold;
+  color: rgb(85, 172, 238);
+  border: 1.5px solid rgb(85, 172, 238);
+  border-radius: 5px;
+  padding: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  width: 4cm;
+  float: right;
+}
+
+.follow-button:hover {
+  background-color: rgb(241, 249, 254);
+}
+
+
+/* The blue bird logo */
+.tweeter-logo{
+  position: relative;
+  top: 4.5px;
+}
+
+/* Adjusting buttons positions */
+#rt {
+  position: relative;
+  left: 9mm;
+}
+
+#favorite {
+  position: relative;
+  left: 17mm;
+}
+
+
+/* small bonus */
+
+#rt:hover {
+  color: #19cf86;
+}
+
+#favorite:hover {
+  color: rgb(245, 16, 85);
+}
