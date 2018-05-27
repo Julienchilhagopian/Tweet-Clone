@@ -16,19 +16,11 @@ div {
   font-size: 22pt;
 }
 
-/* Reply, RT and FAV buttons */
-.bottom-text {
-  float: left;
-  position: relative;
-  bottom: 62px;
-  color: rgb(105, 120, 130);
-
-}
 
 /* Profil picture - Jack text - Validated account logo and walking emoji */
 .top-text {
   position:relative;
-  bottom: 155px;
+  bottom: 15px;
 
 }
 /* Adjusting Walking emoji */
@@ -45,23 +37,6 @@ div {
   bottom: 14.5px;
 }
 
-
-/* "Just setting up my twttr" text */
-.main-text {
-  position:relative;
-  top: 75px;
-}
-
-
-.date-time {
-  color: rgb(101, 116, 127);
-  font-size: 17pt;
-  position: relative;
-  top: 55px;
-  bottom: 10px;
-}
-
-
 /* The black bold jack */
 .jack1 {
   position: relative;
@@ -77,6 +52,29 @@ div {
   color: rgb(104, 109, 129);
   font-size: 17pt;
   left: 20px;
+
+}
+/* "Just setting up my twttr" text */
+.main-text {
+  position:relative;
+  bottom: 45px;
+}
+
+
+.date-time {
+  color: rgb(101, 116, 127);
+  font-size: 17pt;
+  position: relative;
+  bottom: 65px;
+
+}
+
+/* Reply, RT and FAV buttons */
+.bottom-text {
+  float: left;
+  position: relative;
+  bottom: 62px;
+  color: rgb(105, 120, 130);
 
 }
 
