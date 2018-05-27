@@ -11,7 +11,7 @@ div {
   width: 22cm;
   position: relative;
   top: 4cm;
-  left: 5cm;
+  left: 15%;
   padding: 8mm 8mm 8mm 8mm;
   font-size: 22pt;
 }
@@ -20,14 +20,14 @@ div {
 /* Profil picture - Jack text - Validated account logo and walking emoji */
 .top-text {
   position:relative;
-  bottom: 15px;
+  bottom: 7%;
 
 }
 /* Adjusting Walking emoji */
 #logo1 {
   position: relative;
-  right: 42px;
-  bottom: 14px
+  right: 21%;
+  bottom: 14px;
 }
 
 /* Adjusting Validated account */
